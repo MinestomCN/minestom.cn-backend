@@ -1,3 +1,9 @@
+dependencies {
+    implementation("io.ktor:ktor-client-core:2.3.0")
+    implementation("io.ktor:ktor-client-cio:2.3.0")
+    implementation("io.ktor:ktor-client-json:2.3.0")
+    implementation("io.ktor:ktor-client-gson:2.3.0")
+}
 # minestomcn-backend
 
 This project was created using the [Ktor Project Generator](https://start.ktor.io).
