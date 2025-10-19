@@ -11,7 +11,7 @@ import io.ktor.server.routing.*
 fun Application.configureSecurity() {
     install(CSRF) {
         // tests Origin is an expected value
-        allowOrigin("http://localhost:8080")
+        allowOrigin("http://localhost:9990")
 
         // tests Origin matches Host header
         originMatchesHost()
